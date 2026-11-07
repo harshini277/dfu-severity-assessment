@@ -1,0 +1,14 @@
+@"
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+data/
+results/checkpoints/
+*.pth
+*.pt
+*.h5
+*.keras
+.DS_Store
+"@ | Set-Content .gitignore
