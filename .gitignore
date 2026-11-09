@@ -1,14 +1,19 @@
-@"
+@'
 .venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .env
+.env.*
 data/
 results/checkpoints/
+results/classifier_checkpoints/
+results/**/test_predictions.csv
+results/error_analysis/combined_error_analysis.csv
 *.pth
 *.pt
 *.h5
 *.keras
 .DS_Store
-"@ | Set-Content .gitignore
+Thumbs.db
+'@ | Set-Content -Path .gitignore

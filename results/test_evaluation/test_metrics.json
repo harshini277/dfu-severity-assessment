@@ -1,0 +1,36 @@
+{
+    "checkpoint_epoch": 6,
+    "validation_qwk": 0.6808377780668662,
+    "test_images": 141,
+    "accuracy": 0.5602836879432624,
+    "macro_precision": 0.5191621507780289,
+    "macro_recall": 0.5246455871455871,
+    "macro_f1": 0.5136894870942728,
+    "quadratic_weighted_kappa": 0.6637555992394701,
+    "confusion_matrix": [
+        [
+            31,
+            7,
+            4,
+            2
+        ],
+        [
+            20,
+            9,
+            3,
+            5
+        ],
+        [
+            5,
+            2,
+            7,
+            4
+        ],
+        [
+            2,
+            4,
+            4,
+            32
+        ]
+    ]
+}
