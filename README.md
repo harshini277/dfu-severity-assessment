@@ -115,37 +115,7 @@ dfu-severity-assessment/
 
 Model checkpoints, the raw dataset and individual test-image predictions are intentionally excluded.
 
-## Setup
-
-Python 3.11 is used
-
-Clone the repository:
-
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd dfu-severity-assessment
-```
-
-Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Windows PowerShell:
-
-```powershell
-.venv\Scripts\Activate.ps1
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Download the dataset from Kaggle and arrange it as:
-
+This is the structure of the folder with the downloaded data from the Kaggle Dataset
 ```text
 data/
 └── raw/
@@ -165,8 +135,7 @@ data/
         ├── Grade 3/
         └── Grade 4/
 ```
-
-The training scripts and dataset paths should be checked against your local environment before running them. The reported results were obtained using Google Colab with a Tesla T4 GPU.
+The reported results were obtained using Google Colab with a Tesla T4 GPU.
 
 ## Limitations
 
